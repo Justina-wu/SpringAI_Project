@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: AI-springAI
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: deepseek-r1:1.5b
+logging:
+  level:
+    org.springframework.ai.chat.client.advisor: debug
+    com.wjy.ai: debug
